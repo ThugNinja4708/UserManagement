@@ -36,7 +36,7 @@ public class UserDAO {
             String fileSeparator = System.getProperty("file.separator");
 
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/emp?useSSL=false","root","admin");
+			connection = DriverManager.getConnection("jdbc:mysql://database-1.c4t3cf5m03zh.us-east-2.rds.amazonaws.com:3306/emp?useSSL=false","admin","80744708");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
